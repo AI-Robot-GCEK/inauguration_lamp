@@ -9,7 +9,7 @@ ESP8266WebServer server(80); // Create a web server on port 80
 const char *ssid = "SENDER";
 const char *password = "12345678";
 
-void initEspNow()
+void initEspNow();
 {
   if (esp_now_init() != 0)
   {
